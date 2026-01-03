@@ -3,14 +3,15 @@
 
 ## Overview
 
-Within this project two separate problem statements were taken up. 
+This project addresses two signal processing problems involving non-ideal sampling and audio event detection. 
 
-1) The first problem is realted to non ideal sampling conditions that are faced practically. Under this two different sceanrios were considered. 
-a. Sampling doesnt take place at every integer instant, but there is some small delay. This delay is known but random.
-b. The sampling instant has no error, but the sample may be missing with a certain probability.
-For both these scenarios a method was developed to estimate the originial signal with least minimal error.
+1) The first part focuses on practical deviations from ideal Nyquist sampling for band-limited signals. Two non-ideal sampling scenarios are considered:
+a. Sampling Time Delay: Sampling does not occur exactly at integer multiples of the sampling interval. Each sample is affected by a small, known but random timing offset. A reconstruction method is developed to estimate the original uniformly sampled signal while minimizing reconstruction error. Performance was measured as a function of the maximum timing deviation parameter, K.
 
-2) The second problem required analysis of 4 different audio files of drum beats. The objective was to identify the time stamps of the hits as well as the type of the drum
+b. Missing Samples: The sampling instant has no error, but the sample may be missing with a certain probability.
+For both these scenarios a method was developed to estimate the originial signal with least minimal error. An estimation method is proposed to recover the original signal from incomplete data. Here performance was measured as a function of the missing sample probability, p.
+
+2) The second problem required analysis of 4 different audio files of drum beats. The objectives were to identify the time stamps of the hits as well as the type of the drum
 ---
 
 ## Method Developed
