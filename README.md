@@ -5,7 +5,7 @@
 
 This project addresses two signal processing problems involving non-ideal sampling and audio event detection. 
 
-### 1.Non Ideal Sampling
+### 1. Non Ideal Sampling
 
 The first part focuses on practical deviations from ideal Nyquist sampling for band-limited signals. Two non-ideal sampling scenarios are considered:
 
