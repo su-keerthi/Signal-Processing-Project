@@ -22,6 +22,7 @@ For both these scenarios a method was developed to estimate the originial signal
 
 ### 2. Drum Beat Detection
 
+#### Problem Description
 The second problem required analysis of 4 different audio files of drum beats. The objectives were to identify the time stamps of the hits and to classify the drum beat based on the type of the drum instrument.
 ---
 
