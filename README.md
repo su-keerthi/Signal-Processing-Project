@@ -26,6 +26,16 @@ The second problem required analysis of 4 different audio files of drum beats. T
 
 ## Method Developed
 
+### Non Ideal Sampling
+
+#### a) Sampling Time Delay
+
+The method extends sinc-based reconstruction by accounting for known timing errors in the sampling instants and estimating each uniform sample using nearby non-uniform samples.
+
+#### b) Missing Samples
+
+
+
 ---
 
 ## Results Obtained
