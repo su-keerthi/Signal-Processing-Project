@@ -18,8 +18,6 @@ Sampling does not occur exactly at integer multiples of the sampling interval. E
 The sampling instant has no error, but the sample may be missing with a certain probability.
 For both these scenarios a method was developed to estimate the originial signal with least minimal error. An estimation method is proposed to recover the original signal from incomplete data. Here performance was measured as a function of the missing sample probability, p.
 
----
-
 ### 2. Drum Beat Detection
 
 #### Problem Description
