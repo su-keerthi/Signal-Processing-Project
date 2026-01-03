@@ -22,9 +22,7 @@ For both these scenarios a method was developed to estimate the originial signal
 
 The first part focuses on practical deviations from ideal Nyquist sampling for band-limited signals. Two non-ideal sampling scenarios are considered:
 
-#### a) Sampling Time Delay
 
-Sampling does not occur exactly at integer multiples of the sampling interval. Each sample is affected by a small, known but random timing offset. A reconstruction method is developed to estimate the original uniformly sampled signal while minimizing reconstruction error. Performance was measured as a function of the maximum timing deviation parameter, K.
 
 
 ---
