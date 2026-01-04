@@ -39,8 +39,7 @@ First, the reconstruction fills in the missing samples with a rough inital estim
 
 ### Drum Beat Detection
 
-
-
+To detect drum hits, an RMS envelope of the audio signal was used. To detect proiminent drum peaks, a suitable threshold was defined while ensuring a minimal time separation between hits. Each hit was then analysed by its properties in time and frequency, and by comapring with common known data of various drum beats, was classified into categories. 
 
 ---
 
