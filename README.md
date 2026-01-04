@@ -34,6 +34,12 @@ The method extends sinc-based reconstruction by accounting for known timing erro
 
 #### b) Missing Samples
 
+The method followed is the Paoulis-Gerchberg process. 
+First, the reconstruction fills in the missing samples with a rough inital estimate. The signal is then repeatedly refined by removing frequency components that lie outside the known bandwidth. Once this is done, the original available components are restired in their original positions. This process is repeated multiple times until the signal converges. 
+
+### Drum Beat Detection
+
+
 
 
 ---
