@@ -43,11 +43,6 @@ To detect drum hits, an RMS envelope of the audio signal was used. To detect pro
 
 ---
 
-## Results Obtained
-
-
----
-
 ## Contributions
 This project was collaboratively developed by:
 
